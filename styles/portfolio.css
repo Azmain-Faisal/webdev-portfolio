@@ -160,10 +160,47 @@ main section {
 
 /* resume related styles */
 .resume-col-title {
-    color:#474747;
+    color: #474747;
     font-size: 30px;
     font-weight: 700;
 }
-.resume-column{
-    
+
+.resume-container {
+    display: flex;
+    gap: 70px;
+}
+
+.resume-column {}
+
+.resume-col-title {}
+
+.resume-item {}
+
+.resume-item-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.resume-item-insti {
+    color: #757575;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.resume-item-descri {
+    color: #757575;
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+.resume-container hr{
+    margin: 30px 0px;
+}
+
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
